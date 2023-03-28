@@ -1,0 +1,32 @@
+﻿
+
+.div1 {
+    background-color: coral;
+    color: black;
+    text-align: center text-align: center;
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px;
+    margin: 10px 10px 10px 0;
+    padding : 10px 10px 10px 10px;
+    position:sticky;
+}
+h2 ~p{
+    text-align: center;
+    text-shadow: 2px 1px;
+}
+img {
+    float: right;
+    height: 84px;
+    width: 214px;
+    margin: 0 2px 2px 2px;
+}
+.div2>p {
+    position: absolute;
+    top: 233px;
+    left: 50px;
+}
+.div3 p {
+    position: fixed;
+    background-color: gold;
+    top: 430px
+}

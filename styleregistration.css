@@ -1,0 +1,19 @@
+﻿
+div {
+    text-align: center;
+    border: 5px solid blueviolet;
+    margin: 53px 450px 108px 392px;
+    background: azure;
+    border-style: groove;
+    border-radius: 36px 36px 36px;
+}
+h1 {
+    text-decoration: underline;
+}
+.button {
+    background-color: aquamarine;
+    border-color: cyan;
+}
+body {
+    background-color: beige;
+}

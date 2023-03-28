@@ -1,0 +1,28 @@
+﻿.div2 {
+    text-align: center;
+    border: 2px solid;
+    margin: 217px;
+    padding: 100px;
+}
+.div1 {
+    text-align: center;
+    border: 2px solid;
+    margin: 74px 470px 56px 583px;
+    box-shadow: 0px 1px 12px 1px
+}
+.div3 {
+    text-align: center;
+    border: 2px solid;
+    margin: 74px 470px 56px 583px;
+    box-shadow: 0px 1px 12px 1px ;
+    padding: 100px; 
+}
+.container {
+    border: 2px solid;
+    margin-top: 200px;
+    padding:50px 50px 50px 50px;
+}
+.btn-success {
+    margin-left: 50px;
+    background: #2baca5;
+}

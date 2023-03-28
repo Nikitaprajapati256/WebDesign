@@ -1,0 +1,24 @@
+﻿div{
+    background-color:aqua;
+
+}
+
+#p1{
+    background-color:chartreuse;
+    font-family:'Times New Roman', Times, serif;
+    font-size:16px;
+   
+}
+
+#p2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:14px;
+}
+.Text-center{
+    text-align:center;
+
+}
+.Bold-Text {
+    font: 300;
+    font-family: 'Times New Roman', Times, serif;
+}

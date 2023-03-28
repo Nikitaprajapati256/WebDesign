@@ -1,0 +1,22 @@
+﻿div {
+    background-color: #a7e662;
+    text-align: center;
+    border: 5px solid cadetblue;
+    margin: 219px 545px 28px 510px;
+    border-radius: 30px;
+    box-shadow: 12px 17px 14px;
+}
+h1 {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: brown;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #7fffad;
+}
