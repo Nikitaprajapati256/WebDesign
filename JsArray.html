@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <div id="d1"></div>
+
+
+    <script>
+
+
+
+
+        var nos = [56, 34, 33, 77, 89, 22, 67, 44, 99, 10];
+        //nos.push(12);
+        //nos.unshift(8);
+        //nos.shift();
+        //nos.pop();
+        // nos.splice(3, 0, 2, 4);
+        //0nos.slice(2, 5);
+        var rev = nos.reverse();
+        var sorted = nos.sort();
+
+        const result1 = nos.filter(CheckEven);
+        const result2 = nos.filter(Check);
+       
+
+        function CheckEven(item) {
+            if (item % 2 == 0) {
+                return item;
+            }
+        }
+        function Check(val) {
+            if (val >= 18) {
+                return val;
+            }
+
+        }
+        const result3 = nos.map(testFun)
+        function testFun(item) {
+            var i = item;
+            return item = item - (i * 0.02);
+        }
+
+        console.log(rev);
+        console.log(sorted);
+        console.log(result1);
+        console.log(result2);
+        console.log(result3);
+
+        /*var names = ["amol", "ravi", "kishor", "Rahul"];
+
+        names.push("Saurabh"); //add at last
+        names.unshift("test one");//add at 1st position of array/ 0 th index
+        names.shift(); //remove 0th index element of array
+        names.pop();//remove last element of array
+        names.splice(2, 0, "test1", "test2");//insert the element from 2nd index
+        names.splice(3, 1, "test1", "test2");//replace the element from 2nd index
+        var list = names.slice(2, 7);//7-1=6
+
+        names.reverse();
+        names.sort();
+
+        var data = "<ol>";
+        for (var i = 0; i < names.length; i++)
+        {
+            data += "<li>" + names[i] + "</li>";
+        }
+        data += "</ol>";
+        console.log(data);
+        document.getElementById("d1").innerHTML = data;
+        console.log(list);*/
+
+    </script>
+</body>
+</html>

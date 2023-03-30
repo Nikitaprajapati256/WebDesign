@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <div id="d1"></div>
+
+    <script>
+
+        "use strict"
+       /* var emp = {
+            id: 1,
+            name: 'Sakshi',
+            salary: 25000,
+            print: function () {
+
+                return this.id + " " + this.name + " " + this.salary;
+
+            },
+            calculate: function () {
+                var bonus;
+                bonus = this.salary * 0.2;
+                return bonus + this.salary;
+            }
+        };
+
+        console.log(emp.print());
+        console.log("Bonus is " + emp.calculate().toFixed(2));*/
+
+
+        var emp = [
+            {
+                id:1,
+                name: "Alokh",
+                Salary: 26000,
+            },
+            {
+                id:2,
+                name: "Shubham",
+                Salary: 37000,
+            },
+            {
+                id:3,
+                name: "Mayuri",
+                Salary: 45000,
+            },
+            {
+                id:4,
+                name: "Ankit",
+                Salary: 23000,
+            }
+        ];
+        console.log(emp);
+        var data = "<table border='1'><tr><th>Id</th><th>Name</th><th>Salary</th></tr>";
+        for (var i = 0; i < emp.length; i++) {
+            data+="<tr><td>"+emp[i].id+"</td><td>"+emp[i].name+"</td><td>"+emp[i].salary+"</td></tr>"
+        }
+
+        data += "</table>";
+        document.getElementById("d1").innerHTML = data;
+
+
+    </script>
+</body>
+</html>
